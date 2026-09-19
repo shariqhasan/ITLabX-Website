@@ -31,15 +31,16 @@
                 IT<span>LabX</span>
             </a>
 
-            <nav class="navbar">
+            <nav class="navbar" id="navbar">
 
                 <a href="#home">Home</a>
 
-                <a href="#tutorials">Tutorials</a>
+                <a href="#tutorials">Topics</a>
+
+                <a href="#latest">Latest</a>
 
                 <a href="#about">About</a>
 
-                <!-- DIRECT YOUTUBE LINK -->
                 <a href="https://www.youtube.com/@ITLabX"
                    target="_blank"
                    rel="noopener noreferrer">
@@ -50,15 +51,27 @@
 
             </nav>
 
-            <!-- YOUTUBE BUTTON -->
 
             <a href="https://www.youtube.com/@ITLabX"
                class="nav-button"
                target="_blank"
-               rel="noopener noreferrer"
-               onclick="window.open('https://www.youtube.com/@ITLabX', '_blank'); return false;">
+               rel="noopener noreferrer">
                 YouTube
             </a>
+
+
+            <!-- MOBILE MENU BUTTON -->
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
 
         </div>
 
@@ -98,14 +111,13 @@
 
                         <a href="#tutorials"
                            class="primary-button">
-                            Explore Tutorials
+                            Explore Topics
                         </a>
 
                         <a href="https://www.youtube.com/@ITLabX"
                            class="secondary-button"
                            target="_blank"
-                           rel="noopener noreferrer"
-                           onclick="window.open('https://www.youtube.com/@ITLabX', '_blank'); return false;">
+                           rel="noopener noreferrer">
                             Visit YouTube
                         </a>
 
@@ -114,7 +126,7 @@
                 </div>
 
 
-                <!-- ================= TERMINAL ================= -->
+                <!-- TERMINAL -->
 
                 <div class="hero-card">
 
@@ -173,7 +185,7 @@
         </section>
 
 
-        <!-- ================= TUTORIALS ================= -->
+        <!-- ================= TOPICS ================= -->
 
         <section class="tutorials section" id="tutorials">
 
@@ -204,18 +216,14 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🪟
-                        </div>
+                        <div class="topic-icon">🪟</div>
 
-                        <h3>
-                            Windows
-                        </h3>
+                        <h3>Windows</h3>
 
                         <p>
                             Windows 10/11 troubleshooting,
-                            CMD, PowerShell, system tools,
-                            networking commands and useful tips.
+                            CMD, PowerShell, system tools
+                            and networking commands.
                         </p>
 
                         <a href="https://www.youtube.com/@ITLabX"
@@ -231,13 +239,9 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🐧
-                        </div>
+                        <div class="topic-icon">🐧</div>
 
-                        <h3>
-                            Linux & Kali
-                        </h3>
+                        <h3>Linux & Kali</h3>
 
                         <p>
                             Linux commands, Kali Linux,
@@ -258,13 +262,9 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🌐
-                        </div>
+                        <div class="topic-icon">🌐</div>
 
-                        <h3>
-                            Networking & CCNA
-                        </h3>
+                        <h3>Networking & CCNA</h3>
 
                         <p>
                             TCP/IP, IP addressing, DNS, DHCP,
@@ -285,18 +285,14 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🛡️
-                        </div>
+                        <div class="topic-icon">🛡️</div>
 
-                        <h3>
-                            Cybersecurity
-                        </h3>
+                        <h3>Cybersecurity</h3>
 
                         <p>
                             Cybersecurity fundamentals,
-                            ethical hacking, penetration testing,
-                            security tools and lab practice.
+                            ethical hacking, penetration testing
+                            and security tools.
                         </p>
 
                         <a href="https://www.youtube.com/@ITLabX"
@@ -312,18 +308,13 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🐍
-                        </div>
+                        <div class="topic-icon">🐍</div>
 
-                        <h3>
-                            Python Programming
-                        </h3>
+                        <h3>Python Programming</h3>
 
                         <p>
-                            Learn Python from basics including
-                            variables, conditions, loops,
-                            functions and practical projects.
+                            Python basics, variables, conditions,
+                            loops, functions and practical projects.
                         </p>
 
                         <a href="https://www.youtube.com/@ITLabX"
@@ -339,18 +330,14 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🧰
-                        </div>
+                        <div class="topic-icon">🧰</div>
 
-                        <h3>
-                            IT Support
-                        </h3>
+                        <h3>IT Support</h3>
 
                         <p>
                             Desktop support, Active Directory,
-                            DNS, DHCP, BSOD, Outlook,
-                            troubleshooting and helpdesk skills.
+                            DNS, DHCP, BSOD, Outlook and
+                            helpdesk troubleshooting.
                         </p>
 
                         <a href="https://www.youtube.com/@ITLabX"
@@ -366,18 +353,14 @@
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            🖥️
-                        </div>
+                        <div class="topic-icon">🖥️</div>
 
-                        <h3>
-                            System Administration
-                        </h3>
+                        <h3>System Administration</h3>
 
                         <p>
-                            Server administration, Active Directory,
-                            users, permissions, services,
-                            monitoring and maintenance.
+                            Server administration, users,
+                            permissions, services, monitoring
+                            and system maintenance.
                         </p>
 
                         <a href="https://www.youtube.com/@ITLabX"
@@ -389,22 +372,18 @@
                     </article>
 
 
-                    <!-- IT TOOLS -->
+                    <!-- TOOLS -->
 
                     <article class="topic-card">
 
-                        <div class="topic-icon">
-                            ⚙️
-                        </div>
+                        <div class="topic-icon">⚙️</div>
 
-                        <h3>
-                            IT Tools
-                        </h3>
+                        <h3>IT Tools</h3>
 
                         <p>
                             Nmap, Wireshark, Netcat, Nikto,
                             Gobuster, Burp Suite and other
-                            useful technical utilities.
+                            technical utilities.
                         </p>
 
                         <a href="https://www.youtube.com/@ITLabX"
@@ -412,6 +391,249 @@
                            rel="noopener noreferrer">
                             Watch Tutorials →
                         </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LATEST TUTORIALS ================= -->
+
+        <section class="latest section" id="latest">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        LATEST TECHNICAL CONTENT
+                    </p>
+
+                    <h2>
+                        Latest Tutorials
+                    </h2>
+
+                    <p>
+                        Explore practical IT and cybersecurity
+                        topics from ITLabX.
+                    </p>
+
+                </div>
+
+
+                <div class="latest-grid">
+
+
+                    <!-- NMAP -->
+
+                    <article class="latest-card">
+
+                        <div class="latest-number">
+                            01
+                        </div>
+
+                        <div class="latest-content">
+
+                            <span class="latest-category">
+                                CYBERSECURITY
+                            </span>
+
+                            <h3>
+                                Nmap Complete Commands
+                            </h3>
+
+                            <p>
+                                Learn Nmap scanning, host discovery,
+                                service detection, OS detection,
+                                scripts and output options.
+                            </p>
+
+                            <a href="https://www.youtube.com/@ITLabX"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Watch on YouTube →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WIRESHARK -->
+
+                    <article class="latest-card">
+
+                        <div class="latest-number">
+                            02
+                        </div>
+
+                        <div class="latest-content">
+
+                            <span class="latest-category">
+                                NETWORKING
+                            </span>
+
+                            <h3>
+                                Wireshark
+                            </h3>
+
+                            <p>
+                                Learn packet capture, filters,
+                                TCP/UDP analysis and DNS/HTTP
+                                troubleshooting.
+                            </p>
+
+                            <a href="https://www.youtube.com/@ITLabX"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Watch on YouTube →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- LINUX NETWORKING -->
+
+                    <article class="latest-card">
+
+                        <div class="latest-number">
+                            03
+                        </div>
+
+                        <div class="latest-content">
+
+                            <span class="latest-category">
+                                LINUX
+                            </span>
+
+                            <h3>
+                                Linux Networking Commands
+                            </h3>
+
+                            <p>
+                                Learn ip, route, ss, dig,
+                                traceroute, ip neigh and
+                                other networking commands.
+                            </p>
+
+                            <a href="https://www.youtube.com/@ITLabX"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Watch on YouTube →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WINDOWS -->
+
+                    <article class="latest-card">
+
+                        <div class="latest-number">
+                            04
+                        </div>
+
+                        <div class="latest-content">
+
+                            <span class="latest-category">
+                                WINDOWS
+                            </span>
+
+                            <h3>
+                                Windows Networking Commands
+                            </h3>
+
+                            <p>
+                                Learn ipconfig, ping, tracert,
+                                nslookup, arp, netstat and
+                                PowerShell networking commands.
+                            </p>
+
+                            <a href="https://www.youtube.com/@ITLabX"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Watch on YouTube →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WEB SECURITY -->
+
+                    <article class="latest-card">
+
+                        <div class="latest-number">
+                            05
+                        </div>
+
+                        <div class="latest-content">
+
+                            <span class="latest-category">
+                                WEB SECURITY
+                            </span>
+
+                            <h3>
+                                Web Security Tools
+                            </h3>
+
+                            <p>
+                                Explore security tools such as
+                                Burp Suite, Nikto, Gobuster and
+                                other lab-based utilities.
+                            </p>
+
+                            <a href="https://www.youtube.com/@ITLabX"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Watch on YouTube →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- IT SUPPORT -->
+
+                    <article class="latest-card">
+
+                        <div class="latest-number">
+                            06
+                        </div>
+
+                        <div class="latest-content">
+
+                            <span class="latest-category">
+                                IT SUPPORT
+                            </span>
+
+                            <h3>
+                                IT Support Fundamentals
+                            </h3>
+
+                            <p>
+                                Learn practical troubleshooting
+                                concepts including DNS, DHCP,
+                                Active Directory and Windows support.
+                            </p>
+
+                            <a href="https://www.youtube.com/@ITLabX"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                Watch on YouTube →
+                            </a>
+
+                        </div>
 
                     </article>
 
@@ -521,8 +743,7 @@
                     <a href="https://www.youtube.com/@ITLabX"
                        class="primary-button"
                        target="_blank"
-                       rel="noopener noreferrer"
-                       onclick="window.open('https://www.youtube.com/@ITLabX', '_blank'); return false;">
+                       rel="noopener noreferrer">
                         Visit ITLabX YouTube
                     </a>
 
